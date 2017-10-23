@@ -3,7 +3,8 @@ This package was made because I couldn't find any BBCode note taking pogram, so 
 
 # How to use tips
 1. If you want to use the BBCode language as a default for a note use one these extensions: **.bb .bbcode**
-2. If you want a great note taking package download ![atom-notes](https://atom.io/packages/atom-notes) and in it's extension settings add **.bb** (make that the first extension if you want to create bbcode notes by default)
+2. To enable general spellchecking in BBCode documents add **source.bbcode** to the spell-check package's grammar settings
+3. If you want a great note taking package download *![atom-notes](https://atom.io/packages/atom-notes)* and in it's extension settings add **.bb** (make that the first extension if you want to create bbcode notes by default)
 
 # List of autofills
 Bold = **bold**
