@@ -7,16 +7,29 @@ This package was made because I couldn't find any BBCode note taking pogram, so 
 
 # List of autofills
 Bold = **bold**
+
 Italic = **italic**
+
 Underline = **underline**
+
 Color = **color**
+
 Size = **size**
+
 Code = **code**
+
 Image = **img**
+
 Link = **url**
+
 Align Left = **left**
+
 Align Center = **Center**
+
 Align Right = **right**
+
 Quote = **quote**
+
 Ordered List = **1** or **list_or**
+
 Unordered List = **list**
