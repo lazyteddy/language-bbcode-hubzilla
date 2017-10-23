@@ -1,0 +1,61 @@
+".source.bbcode":
+  "Bold (bold)":
+    prefix: "bold"
+    body: "[B]${1:text}[/B]$0"
+  "Italic (italic)":
+    prefix: "italic"
+    body: "[I]${1:text}[/I]$0"
+  "Underline (underline)":
+    prefix: "underline"
+    body: "[U]${1:text}[/U]$0"
+  "Color (color)":
+    prefix: "color"
+    body: "[COLOR=${1:#html_color_code}]${2:text}[/COLOR]$0"
+  "Size (size)":
+    prefix: "size"
+    body: "[SIZE=${1:text_size}px]${2:text}[/SIZE]$0"
+  "Code (code)":
+    prefix: "code"
+    body: "[CODE}}]${1:text}[/CODE]$0"
+  "Image (img)":
+    prefix: "img"
+    body: "[IMG]${1:image_link}[/IMG]$0"
+  "Link (url)":
+    prefix: "url"
+    body: "[URL=${1:link}]${2:text}[/URL]$0"
+  "Align Left (left)":
+    prefix: "left"
+    body: "[LEFT}}]${1:text}[/LEFT]$0"
+  "Align Center (Center)":
+    prefix: "center"
+    body: "[CENTER}}]${1:text}[/CENTER]$0"
+  "Align Right (right)":
+    prefix: "right"
+    body: "[RIGHT}}]${1:text}[/RIGHT]$0"
+  "Quote (quote)":
+    prefix: "quote"
+    body: "[QUOTE=${1:name}]${2:copied_text}[/QUOTE]$0"
+  "Ordered List (1)":
+    prefix: "1"
+    body: '''
+      [list=1]
+      [*] ${1:text}
+      [*] ${2:text}
+      [/list]$0
+    '''
+  "Ordered List (list_or)":
+    prefix: "list_or"
+    body: '''
+      [list=1]
+      [*] ${1:text}
+      [*] ${2:text}
+      [/list]$0
+    '''
+  "Unordered List (list)":
+    prefix: "list"
+    body: '''
+      [list]
+      [*] ${1:text}
+      [*] ${2:text}
+      [/list]$0
+    '''

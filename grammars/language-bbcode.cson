@@ -1,0 +1,29 @@
+scopeName: 'source.bbcode'
+name: 'BBcode'
+fileTypes: ['bb', 'bbcode']
+
+patterns: [
+	{
+		include: '#keywords'
+	}
+	{
+			include: '#constants'
+	}
+]
+
+repository:
+	keywords:
+		patterns: [
+			{
+          match: "\\b(B|I|U|COLOR|SIZE|CODE|IMG|URL|LEFT|CENTER|RIGHT|QUOTE)\\b"
+          name: "support.keyword.bbcode"
+      }
+			{
+          match: "(/B|/I|/U|/COLOR|/SIZE|/CODE|/IMG|/URL|/LEFT|/CENTER|/RIGHT|/QUOTE)\\b"
+          name: "support.keyword.bbcode"
+      }
+			{
+          match: "\\[|\\]"
+          name: "constant.keyword.bbcode"
+      }
+]

@@ -1,0 +1,6 @@
+'.source.bbcode':
+  'editor':
+    'tabLength': 2
+    'increaseIndentPattern':'\\[[^/][^\\]]+\\]'
+    'decreaseIndentPattern':'\\[/[^/\\]]+\\]'
+    'foldEndPattern': '\\[/[^/\\]]+\\]'
