@@ -1,6 +1,6 @@
 {
   "name": "language-bbcode-and-syntax-highlight",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "BBCode language support in Atom with syntax autofill and highlighting",
   "engines": {
     "atom": "*"
