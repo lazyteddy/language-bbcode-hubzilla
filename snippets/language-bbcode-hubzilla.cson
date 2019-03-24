@@ -1,4 +1,4 @@
-".source.bbcode":
+".source.bbcode-hz":
   "Bold (bold)":
     prefix: "bold"
     body: "[b]${1:text}[/b]$0"
@@ -49,6 +49,14 @@
       [*] ${2:text}
       [/ol]$0
     '''
+  "Ordered List (A)":
+    prefix: "list"
+    body: '''
+      [list=A]
+      [*] ${1:text}
+      [*] ${2:text}
+      [/list]$0
+    '''
   "Unordered List":
     prefix: "ul"
     body: '''
@@ -57,3 +65,66 @@
       [*] ${2:text}
       [/ul]$0
     '''
+  "Horizontal Line (line)":
+    prefix: "hr"
+    body: "[hr]$0"
+  "Video (video)":
+    prefix: "video"
+    body: "[video]${1:videourl}[/video]$0"
+  "Audio (audio)":
+    prefix: "audio"
+    body: "[audio]${1:audiourl}[/audio]$0"
+  "NoBB (nobb)":
+    prefix: "nobb"
+    body: "[nobb]${1:text}[/nobb]$0"
+  "Identity aware link (zrl)":
+    prefix: "zrl"
+    body: "[zrl=${1:Identity aware link}]${2:Link text}[/zrl]$0"
+  "Identity aware image (zmg)":
+    prefix: "zmg"
+    body: "[zmg]${1:Identity aware image link}[/zmg]$0"
+  "Observer authenticated (observer)":
+    prefix: "observer"
+    body: "[observer=1]${1:Text to display if authenticated}[/observer]$0"
+  "Observer not authenticated (no-observer)":
+    prefix: "no-observer"
+    body: "[observer=0]${1:Text to display if not authenticated}[/observer]$0"
+  "Observer Language (observer.language)":
+    prefix: "language"
+    body: "[observer.language=${1:language}]${2:Text to display in selected language}[/observer]$0"
+  "Observer Language NOT (observer.language)":
+    prefix: "not-language"
+    body: "[observer.language!=${1:language}]${2:Alternative language text to display}[/observer]$0"
+  "Channel URL (observer.url)":
+    prefix: "observer.url"
+    body: "[observer.url]$0"
+  "Base URL (observer.baseurl)":
+    prefix: "baseurl"
+    body: "[observer.baseurl]/$0"
+  "Observer Name (observer.name)":
+    prefix: "observer.name"
+    body: "[observer.name]$0"
+  "Observer nick name (observer.webname)":
+    prefix: "observer.webname"
+    body: "[observer.webname]$0"
+  "Observer nick name (observer.address)":
+    prefix: "observer.address"
+    body: "[observer.address]$0"
+  "Observer nick name (observer.photo)":
+    prefix: "observer.photo"
+    body: "[observer.photo]$0"
+  "Spoiler (spoiler)":
+    prefix: "spoiler"
+    body: "[spoiler]${1:Text you want to hide}[/spoiler]$0"
+  "QR Code (qr)":
+    prefix: "qr"
+    body: "[qr]${1:Text to convert}[/qr]$0"
+  "Map coordinates (map-c)":
+    prefix: "map-coordinates"
+    body: "[map=${1:latitude,longitude}]$0"
+  "Map Place Name (map-n)":
+    prefix: "map-name"
+    body: "[map]${1:Name of Place}[/map]$0"
+  "Copyright (c)":
+    prefix: "copy"
+    body: "[&copy]$0"

@@ -1,6 +1,6 @@
-scopeName: 'source.bbcode'
+scopeName: 'source.bbcode-hz'
 name: 'BBcode'
-fileTypes: ['bb', 'bbcode']
+fileTypes: ['bbz', 'bbcode']
 
 patterns: [
 	{
