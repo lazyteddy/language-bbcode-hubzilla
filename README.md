@@ -1,5 +1,12 @@
 # Hubzilla BBCode support for the BBCode packe for Atom
+
 I Was looking for a convenient way to write long [Hubzilla](https://zotlabs.org) posts offline, so I needed a way to include BBCode. I found [this](https://github.com/xKeiro/language-bbcode-and-syntax-highlight), and it worked, but I decided to do a little Hubzilla specific tailoring. Hubzilla has lots of specific tags, and I thought it would be extremely convenient if I could start typing, say, `baseurl` and it would get automatically converted to `[oberserver.baseurl]`
+
+# Installation on Linux
+
+I haven't published this package to the atom.io yet, so manual installation is required for now.
+
+Simply clone this repository to ~/.atom/packages.
 
 # Original ReadMe below
 ## BBCode package for Atom
