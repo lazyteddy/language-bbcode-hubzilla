@@ -1,4 +1,4 @@
-'.source.bbcode':
+'.source.bbcode-hz':
   'editor':
     'tabLength': 2
     'increaseIndentPattern':'\\[[^/][^\\]]+\\]'

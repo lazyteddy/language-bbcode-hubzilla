@@ -8,9 +8,15 @@
   "Underline (underline)":
     prefix: "underline"
     body: "[u]${1:text}[/u]$0"
+  "Strike (strike)":
+    prefix: "strike"
+    body: "[s]${1:text}[/s]"
   "Color (color)":
     prefix: "color"
     body: "[color=${1:#html_color_code}]${2:text}[/color]$0"
+  "Highlighted (highlighted)":
+    prefix: "highlight"
+    body: "[hl]${1:text}[/hl]"
   "Size (size)":
     prefix: "size"
     body: "[size=${1:text_size}px]${2:text}[/size]$0"
