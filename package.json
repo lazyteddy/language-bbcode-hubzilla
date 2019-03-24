@@ -1,17 +1,17 @@
 {
-  "name": "language-bbcode-and-syntax-highlight",
-  "version": "1.0.5",
-  "description": "BBCode language support in Atom with syntax autofill and highlighting",
+  "name": "language-bbcode-hubzilla",
+  "version": "0.1",
+  "description": "BBCode language support in Atom with Hubzilla specific code",
   "engines": {
     "atom": "*"
   },
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/xKeiro/language-bbcode-and-syntax-highlight.git"
+    "url": "https://github.com/lazyteddy/language-bbcode-hubzilla.git"
   },
   "bugs": {
-    "url": "https://github.com/xKeiro/language-bbcode-and-syntax-highlight/issues"
+    "url": "https://github.com/lazyteddy/language-bbcode-hubzilla/issues"
   },
   "license": "MIT"
 }
