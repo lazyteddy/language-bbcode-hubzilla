@@ -1,6 +1,6 @@
 {
   "name": "language-bbcode-hubzilla",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "BBCode language support in Atom with Hubzilla specific code",
   "engines": {
     "atom": "*"
