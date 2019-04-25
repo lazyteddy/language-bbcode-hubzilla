@@ -65,6 +65,9 @@
       [*] ${2:text}
       [/ul]$0
     '''
+  "List Item":
+    prefix: "li"
+    body: "[*] $0"
   "Horizontal Line (line)":
     prefix: "hr"
     body: "[hr]$0"
