@@ -46,7 +46,6 @@
     body: '''
       [ol]
       [*] ${1:text}
-      [*] ${2:text}
       [/ol]$0
     '''
   "Ordered List (A)":
@@ -54,7 +53,6 @@
     body: '''
       [list=A]
       [*] ${1:text}
-      [*] ${2:text}
       [/list]$0
     '''
   "Unordered List":
@@ -62,7 +60,6 @@
     body: '''
       [ul]
       [*] ${1:text}
-      [*] ${2:text}
       [/ul]$0
     '''
   "List Item":
